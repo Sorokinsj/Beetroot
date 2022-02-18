@@ -2,7 +2,6 @@
 def nested_parentheses(incoming):
     left_s = "("
     right_s = ")"
-    i = 0
     s = 0
     if incoming[0] == left_s:
         for i in range (0, len(incoming)):
